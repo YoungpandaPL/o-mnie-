@@ -1,0 +1,115 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101010;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header.hero {
+    background: url('img/travis-header.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+header.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header.hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: brown;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ul li a {
+    color: brown;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+footer {
+    background: #111;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.music {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.music h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.music p {
+    font-size: 1.1rem;
+}
+
+button {
+    background-color: #FF8C00;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e07b00;
+}
+
+audio {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+image{
+    size: 10px;
+}
